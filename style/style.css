@@ -4,21 +4,9 @@ html, body {
   font-family: "Open Sans";
 }
 
-body {
-  padding-top: 10px;
-}
-
-.round {
-  border-radius: 16px;
-  width: 10%;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-.round.red {
-  background: #FF3344;
-}
-
-.center {
-  text-align: center;
+#display {
+  width: 1024px;
+  height: 576px;
+  margin: auto;
+  border: 1px solid black;
 }

@@ -3,10 +3,13 @@
 <head>
   <title>Playground</title>
   <link rel="stylesheet" href="style/style.css"/>
+  <script src="script/first.js"></script>
 </head>
-<body>
-  <div class="round red center">
-    hi
-  </div>
+<body onload="draw();">
+  <canvas id="display" width="1024" height="576">
+    <div class="fallback">
+      Your browser does not support canvas elements
+    </div>
+  </canvas>
 </body>
 </html>
